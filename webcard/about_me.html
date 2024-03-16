@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+    <title>Web Card</title>
+</head>
+
+<body>
+    <!-- 메인컬러 #132267, 서브컬러 #FFC300 -->
+
+
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md" style="background-color: #0C1540;">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">BUSINESS CARD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks"
+                aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" id="HOME">HOME</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about_me.html" id="ABOUT_ME">ABOUT ME</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="introduce.html" id="INTRODUCE">INTRODUCE</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" id="CONTACT">CONTACT</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid px-0">
+        <div>
+            <div class="col" style="display: flex; justify-content: center;">
+                <img class=" img-thumbnail" src=" 2020-09-10_민증면허.jpg" alt="" id="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid m-0 p-0">
+        <nav>
+            <div class="col nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                    type="button" role="tab" aria-controls="nav-home"
+                    aria-selected="true"><strong>인적사항</strong></button>
+
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><strong>학력 및
+                        경력사항</strong></button>
+
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                    type="button" role="tab" aria-controls="nav-contact"
+                    aria-selected="false"><strong>자격사항</strong></button>
+
+                <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled"
+                    type="button" role="tab" aria-controls="nav-disabled" aria-selected="false"><strong>각종활동 및
+                        특기사항</strong>
+                </button>
+            </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active text-white" id="nav-home" role="tabpanel"
+                aria-labelledby="nav-home-tab" tabindex="0">
+                <div class="container-fluid text-center" style="padding: 1rem;">
+                    <div class="row">
+                        <div class="col">
+
+                        </div>
+                        <div class="col">
+                            <p>이정연</p>
+                            <p>李炡沇</p>
+                            <p>LEE Jungyeon</p>
+                            <hr>
+                            <p>여</p>
+                            <hr>
+                            <p>2000.09.09</p>
+                            <hr>
+                            <p>서울 성동구 마장동</p>
+                        </div>
+                        <div class="col">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade text-white" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                tabindex="0">
+                <div class="container-fluid text-center" style="padding: 1rem;">
+                    <div class="row">
+                        <div class="col">
+
+                        </div>
+                        <div class="col">
+                            <p>최종 학력 : 대학(4년제) 재학중</p>
+                            <p>최종 경력 : 특허법인(5년차) 재직중</p>
+                            <hr>
+                            <p>2022. 03. - 현재. 한양대학교(서울캠퍼스) 산업융합학부 정보공학전공</p>
+                            <p>2019. 03. - 현재. 특허법인 관리팀</p>
+                            <p>2016. 03. - 2019. 02. 대일관광고등학교 관광비즈니스과</p>
+                        </div>
+                        <div class="col">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade text-white" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                tabindex="0">
+                <div class="container-fluid text-center" style="padding: 1rem;">
+                    <div class="row">
+                        <div class="col">
+                        </div>
+                        <div class="col">
+                            <p>심리상담사1급 한국직업능력진흥원 2024.02.12</p>
+                            <p>노인심리상담사1급 한국직업능력진흥원 2024.02.12</p>
+                            <p>SMAT 서비스경영 3급 한국생산성본부 2018.10.03</p>
+                            <p>증권투자권유대행인 금융투자협회 2018.05.03</p>
+                            <p>전산회계운용사 3급 대한상공회의소 2018.04.27</p>
+                            <p>비서 3급 대한상공회의소 2018.04.27 </p>
+                            <p>전산회계 2급 한국세무사회 2018.02.22</p>
+                            <p>ERP 정보관리사 회계 2급 한국생산성본부 2017.12.12 </p>
+                            <p>ITQ한글엑셀A 한국생산성본부 2017.06.01</p>
+                            <p>ITQ한글파워포인트A 한국생산성본부 2013.03.28</p>
+                        </div>
+                        <div class="col">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade text-white" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab"
+                tabindex="0">
+                <div class="container-fluid text-center" style="padding: 1rem;">
+                    <div class="row">
+                        <div class="col">
+
+                        </div>
+                        <div class="col">
+                            <h6>동아리 활동 및 그 외</h6>
+                            <p>2018.03.28. - 2018.11.07 관광사진반 대일관광고등학교</p>
+                            <p>2017.08.29 - 2018.04.27 ​비서자율동아리 대일관광고등학교</p>
+                            <p>2017.09.04 - 2018.02.12 2학년 학급회장 대일관광고등학교</p>
+                            <p>2017.03.29 - 2017.11.08 중국어드라마반 대일관광고등학교</p>
+                            <p>2016.03.30. - 2016.11.09 나의독서노트반 대일관광고등학교</p>
+                            <hr>
+                            <h6>교내 수상 내역</h6>
+                            <p>2018.02.09 교과우수상(화법과작문) 대일관광고등학교장</p>
+                            <p>2018.01.12 상업경시대회(회계부문) 동상(3위) 대일관광고등학교장</p>
+                            <p>2018.01.12 상업경시대회(경제부문) 은상(2위) 대일관광고등학교장</p>
+                            <p>2018.01.12 독후감대회(독후감부문) 금상(1위) 대일관광고등학교장</p>
+                            <p>2016.12.01 학교장상(선행상) 대일관광고등학교장</p>
+                            <p>2016.11.02 관광 외국어 경시대회(영어부문) 동상(3위) 대일관광고등학교장</p>
+                            <hr>
+                            <h6>봉사활동</h6>
+                            <p>2018.04.15 나마스떼코리아 기부물품 운반 나마스떼코리아</p>
+                            <p>2018.03.31 백혈병소아암어린이돕기 캠페인 활동 한국백혈병새생명후원회</p>
+                            <p>2017.12.06 헌혈(전혈) 서울시 성북구</p>
+                            <p>2017.04.29 19대 대통령 선거공보물 2차 우편 작업 종암주민센터</p>
+                            <p>2017.04.27 선거 공보물 운반 및 주변환경 정리 장위3동캠프</p>
+                            <p>2017.04.26 환경정비, 도서정비 어르신 말벗 장위3동캠프</p>
+                            <p>2016.09.03 자연보호 캠페인 및 환경정화 봉사활동 자연보호서울시강북구 협의회</p>
+                            <p>2016.04.23 - 2016.11.12 마을장터 개울장 프로그램 진행보조 서울시 성북구</p>
+                        </div>
+                        <div class="col">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
